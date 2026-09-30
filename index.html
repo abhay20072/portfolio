@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abhay Singh | BCA Student &amp; Web Developer</title>
+  <meta name="description" content="Portfolio of Abhay Singh, BCA student and web developer. Projects: To-Do List and Music Player built with HTML, CSS and JavaScript.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a href="#home" class="logo">Abhay<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <ul class="links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Abhay Singh</h1>
+        <p class="role">BCA Student &bull; Web Developer</p>
+        <p class="lead">I build clean, responsive web projects using HTML, CSS and JavaScript.</p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn ghost">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2 class="title">About <span>Me</span></h2>
+        <div class="about-grid">
+          <p>
+            I'm <strong>Abhay Singh</strong>, a BCA student who enjoys turning ideas into working
+            web projects. I like learning by building, one project at a time.
+          </p>
+          <p>
+            So far I've built a <strong>To-Do List app</strong> and a <strong>Music Player</strong>
+            using HTML, CSS and JavaScript, and I'm continuing to improve my web development skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt reveal">
+      <div class="container">
+        <h2 class="title">My <span>Skills</span></h2>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <div class="skill-card">
+            <h3>Used in my projects</h3>
+            <div class="tags"><span>DOM Manipulation</span><span>localStorage</span><span>Responsive Design</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2 class="title">My <span>Projects</span></h2>
+        <div class="project-grid">
+
+          <article class="project">
+            <h3>To-Do List App</h3>
+            <p>Add tasks, mark them complete and delete them. A progress bar shows how much is done, and tasks are saved in the browser using localStorage.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="proj-links"><a href="#" class="plink">Live Demo</a><a href="#" class="plink">GitHub</a></div>
+          </article>
+
+          <article class="project">
+            <h3>Music Player</h3>
+            <p>A music player with play, pause, next and previous controls, song details, a progress bar and volume control.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="proj-links"><a href="#" class="plink">Live Demo</a><a href="#" class="plink">GitHub</a></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt reveal">
+      <div class="container contact">
+        <h2 class="title">Get In <span>Touch</span></h2>
+        <p class="lead">Internship, project ya collaboration ke liye message karo. I'll get back to you soon.</p>
+        <a class="btn primary" href="mailto:Asingh75934@gmail.com">Asingh75934@gmail.com</a>
+        <div class="socials">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Abhay Singh. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
